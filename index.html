@@ -3,13 +3,17 @@
 <head>
 	<title>Cesar Work</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="css/style.css">
+	
 	 <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <!-- My Css -->
+    <link rel="stylesheet" href="css/style.css">
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins)  -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <!--lightbox-->
+    <link rel="stylesheet" type="text/css" href="css/lightbox.css">
 </head>
 <body>	
 	<header>
@@ -32,7 +36,7 @@
 				        <li><a href="#">Empresa</a></li>	
 				        <li><a href="#">Serviços</a></li>	
 				        <li><a href="#">Mente Positiva</a></li>	
-				        <li><a href="#">Contato</a></li>
+				        <li><a href="index.html" data-lightbox="roadtrip"" >Contato</a></li>
 				     </ul>
 			     </div><!-- /.navbar-collapse -->
 			  </div><!-- /.container-fluid -->
@@ -41,16 +45,16 @@
 		<div class=" container all">	
 			<section>
 				<div class=" row conteudo">
-					<h1>Cesar Work <br>Acessoria Empresarial que você procura.</h1>					
+					<h1>Cesar Work <br>Assessoria Empresarial que você procura.</h1>					
 					<img src="img/cwork2.png">
 					<p>Meu nome é Paulo César, fundador da CESAR WORK, uma empresa de assessoria empresarial, que oferece serviços dedicado a melhor resposta pelo método participativo em sua prestação confiável de resultados junto a clientes e empresas visando a condição custo/beneficio por estudos, pesquisas e estatísticas. Assim constituiu-se a CESAR WORK oferecendo por capacidade serviços e assessoria aos clientes e amigos satisfeitos em suas buscas.</p>
 					
 				</div>
-				<div class="row empresa"> 
-					<h2>Empresa</h2>
+				<div class="row empresa"> 					
 					<div class="col-md-12 ">
-						<div class="empreinfo">
-							<p>Nos tornamos umas das melhores ASSESSORIA EMPRESARIAL graças a alguns dos atributos recebidos como:</p>
+						<div class="empreinfo secoes">
+							<h2>Empresa</h2>
+							<p>Nos tornamos umas das melhores ASSESSORIA EMPRESARIAL graças a alguns dos atributos recebidos como:</p>							
 							<ul>
 								<li>Excelência por profissionalismo</li>
 								<li>Proatividade</li>
@@ -59,46 +63,134 @@
 								<li>Comprometimento</li>
 								<li>Gerenciador de relações e moderador ativo</li>
 							</ul>
+
 							<p>Qualificações essas conquistadas pelos trabalhos executados juntamente em obras/serviços com parceiros e colaboradores.<br>Para você que deseja oferecer seus serviços em São Paulo ou qualquer outro lugar, nós podemos ajudar.</p>
 							<br>
-							<a href="">entre em contato </a>
+							<a href="">Entre em contato </a>
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row servicos secoes">
 					<h2>Serviços</h2>
-						<div class="col-md-6">					
-						<p>Assessoria Comercial</p>
+					<div>
+						<div class="col-md-6 insideservicos">					
+						<h4>Assessoria Comercial</h4>
 						<ul>
-							<li>projetos (hidráulico / elétrico /agua de reuso / energia solar / telhado verde / uso do solo)</li>
-							<li>construções (do projeto ao acabamento)</li>
-							<li>instalações  (elétrica / hidráulica / sistemas de monitoramento / cerca elétrica)</li>
-							<li>pintura (industrial / residencial / comercial - acesso por cordas –alpinismo)</li>
-							<li>elétrica (proteção anti surto / para raios / instalação de postes com ligação padronizada)</li>
-							<li>hidráulica (controle de uso da agua)</li>
-							<li>rede de dados (voz / cabeamentos) </li>
+							<li><b>Projetos</b> (hidráulico / elétrico /agua de reuso / energia solar / telhado verde / uso do solo)</li>
+							<li><b>Construções</b> (do projeto ao acabamento)</li>
+							<li><b>Instalações</b>  (elétrica / hidráulica / sistemas de monitoramento / cerca elétrica)</li>
+							<li><b>Pintura</b> (industrial / residencial / comercial - acesso por cordas –alpinismo)</li>
+							<li><b>Elétrica</b> (proteção anti surto / para raios / instalação de postes com ligação padronizada)</li>
+							<li><b>Hidráulica</b> (controle de uso da agua)</li>
+							<li><b>Rede de dados</b> (voz / cabeamentos) </li>
 						</ul>						
 						</div>
-						<div class="col-md-6">					
-						<p>Assessoria Industrial / Portuária</p>
+						<div class="col-md-6 insideservicos">					
+						<h4>Assessoria Industrial / Portuária</h4>
 						<ul>
-							<li> mobilização e desmobilização </li>
-							<li>hospedagem, alimentação, lavanderia e transporte </li>
-							<li> laboratórios </li>
-							<li>equipamentos </li>
-							<li> escolas e cursos </li>
-							<li> cursos</li>
-							<li> locações  </li>
-							<li>profissionais </li>
-							<li>escritório físico / virtual</li>
+							<li><b>Mobilização e desmobilização</b></li>
+							<li><b>Hospedagem, alimentação, lavanderia e transporte</b></li>
+							<li><b>Laboratórios</b></li>
+							<li><b>Equipamentos</b></li>
+							<li><b>Escolas e cursos</b></li>
+							<li><b>Locações</b></li>
+							<li><b>Profissionais</b></li>
+							<li><b>Escritório físico / virtual</b></li>
 						</ul>						
-						</div>
+						</div>						
 					</div>
+						
+				</div>
+				<div class="row gallery secoes">
+					<h2>Fotos</h2>
+					<div class="col-xs-6 col-md-3">
+					    <a href="img/cwfront1.jpg" class="thumbnail" data-lightbox="roadtrip" data-title="Cesar Work">
+					      <img src="img/cwfront1.jpg" class="img-responsive" alt="...">
+					    </a>
+				 	</div>
+				 	<div class="col-xs-6 col-md-3">
+					    <a href="img/cwemarea.jpg" class="thumbnail" data-lightbox="roadtrip" data-title="Cw - Em área">
+					      <img src="img/cwemarea.jpg" class="img-responsive"alt="...">
+					    </a>
+				 	</div>
+				 	<div class="col-xs-6 col-md-3">
+					    <a href="img/cwmaritimo.jpg" class="thumbnail" data-lightbox="roadtrip" data-title="Cw - Máritimo">
+					      <img src="img/cwmaritimo.jpg" class="img-responsive" alt="...">
+					    </a>
+				 	</div>
+				 	<div class="col-xs-6 col-md-3">
+					    <a href="img/cwvisita.jpg" class="thumbnail" data-lightbox="roadtrip" data-title="Cw - Em visita">
+					      <img src="img/cwvisita.jpg" class="img-responsive" alt="...">
+					    </a>
+				 	</div>
+				 	<div class="col-xs-6 col-md-3 fotos">
+					    <a href="img/cwescritorio.jpg" class="thumbnail" data-lightbox="roadtrip" data-title="Cw - Escritório">
+					      <img src="img/cwescritorio.jpg" alt="...">
+					    </a>
+				 	</div>
+				 	<div class="col-xs-6 col-md-3 fotos">
+					    <a href="img/cwferroviario.jpg" class="thumbnail" data-lightbox="roadtrip" data-title="Cw - Ferroviario">
+					      <img src="img/cwferroviario.jpg" alt="...">
+					    </a>
+				 	</div>
+				 	<div class="col-xs-6 col-md-3 fotos">
+					    <a href="img/cwcivil.jpg" class="thumbnail" data-lightbox="roadtrip" data-title="Cw - Obra Civil">
+					      <img src="img/cwcivil.jpg" alt="...">
+					    </a>
+				 	</div>
+				 	<div class="col-xs-6 col-md-3 fotos">
+					    <a href="img/cwassinteriorsp.jpg" class="thumbnail" data-lightbox="roadtrip" data-title="Cw - Acessoria Interior - SP">
+					      <img src="img/cwassinteriorsp.jpg" alt="...">
+					    </a>
+				 	</div>
+				 	<div class="col-xs-6 col-md-3 fotos">
+					    <a href="img/cwobraverificacao.jpg" class="thumbnail" data-lightbox="roadtrip" data-title="Cw - Obra em Verificação">
+					      <img src="img/cwobraverificacao.jpg" alt="...">
+					    </a>
+				 	</div>
+				 	<div class="col-xs-6 col-md-3">
+					    <a href="img/inspecaodeprojetos.jpg" class="thumbnail" data-lightbox="roadtrip" data-title="Cw - Inspeção de Projetos">
+					      <img src="img/inspecaodeprojetos.jpg" alt="...">
+					    </a>
+				 	</div>
+				 	<div class="col-xs-6 col-md-3">
+					    <a href="img/inspecaodeobra.jpg" class="thumbnail" data-lightbox="roadtrip" data-title="Cw - Inspeção de Obra">
+					      <img src="img/inspecaodeobra.jpg" alt="...">
+					    </a>
+				 	</div>
+				 	<div class="col-xs-6 col-md-3 fotos">
+					    <a href="img/csconsultoria.jpg" class="thumbnail" data-lightbox="roadtrip" data-title="Cw - Consultoria">
+					      <img src="img/csconsultoria.jpg" alt="...">
+					    </a>
+				 	</div>
+				 	<div class="col-xs-6 col-md-3 fotos">
+					    <a href="img/victoqualidaderpbc.jpg" class="thumbnail" data-lightbox="roadtrip" data-title="Cw - Victoria Qualidade ( RPBC )">
+					      <img src="img/victoqualidaderpbc.jpg" alt="...">
+					    </a>
+				 	</div>
+				 	<div class="col-xs-6 col-md-3 fotos">
+					    <a href="img/victoriaqualidarecap.jpg" class="thumbnail" data-lightbox="roadtrip" data-title="Cw - Victoria Qualidade ( RPBC )">
+					      <img src="img/victoriaqualidarecap.jpg" alt="...">
+					    </a>
+				 	</div>
+				 	<div class="col-xs-6 col-md-3 fotos">
+					    <a href="img/avaliacaodeservico.jpg" class="thumbnail" data-lightbox="roadtrip" data-title="Cw - Avaliação de Serviço">
+					      <img src="img/avaliacaodeservico.jpg" alt="...">
+					    </a>
+				 	</div>
+				 	<div class="col-xs-6 col-md-3 fotos">
+					    <a href="img/cw.jpg" class="thumbnail" data-lightbox="roadtrip" data-title="Cesar Work">
+					      <img src="img/cw.jpg" alt="...">
+					    </a>
+				 	</div>					
+				</div>
 			</section>	
 			<footer>
 				rodapé
 			</footer>
 			
 		</div>
+
+    <script type="text/javascript" src="js/lightbox.js"></script>		
 </body>
 </html>
