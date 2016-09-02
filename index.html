@@ -14,6 +14,8 @@
     <script src="js/bootstrap.min.js"></script>
     <!--lightbox-->
     <link rel="stylesheet" type="text/css" href="css/lightbox.css">
+    <!--personal functions-->
+    <script type="text/javascript" src="js/functions.js"></script>
 </head>
 <body>	
 	<header>
@@ -36,13 +38,13 @@
 				        <li><a href="#">Empresa</a></li>	
 				        <li><a href="#">Serviços</a></li>	
 				        <li><a href="#">Mente Positiva</a></li>	
-				        <li><a href="index.html" data-lightbox="roadtrip"" >Contato</a></li>
+				        <li><a href="javascript:newPopup()">Contato</a></li>
 				     </ul>
 			     </div><!-- /.navbar-collapse -->
 			  </div><!-- /.container-fluid -->
 			</nav>
 		</header>
-		<div class=" container all">	
+		<div class="container all">	
 			<section>
 				<div class=" row conteudo">
 					<h1>Cesar Work <br>Assessoria Empresarial que você procura.</h1>					
@@ -51,10 +53,10 @@
 					
 				</div>
 				<div class="row empresa"> 					
-					<div class="col-md-12 ">
+					<div class="col-md-12">
 						<div class="empreinfo secoes">
 							<h2>Empresa</h2>
-							<p>Nos tornamos umas das melhores ASSESSORIA EMPRESARIAL graças a alguns dos atributos recebidos como:</p>							
+							<p>Nos tornamos umas das melhores ASSESSORIA EMPRESARIAL graças a alguns dos atributos recebidos como:</p>				
 							<ul>
 								<li>Excelência por profissionalismo</li>
 								<li>Proatividade</li>
@@ -63,13 +65,12 @@
 								<li>Comprometimento</li>
 								<li>Gerenciador de relações e moderador ativo</li>
 							</ul>
-
 							<p>Qualificações essas conquistadas pelos trabalhos executados juntamente em obras/serviços com parceiros e colaboradores.<br>Para você que deseja oferecer seus serviços em São Paulo ou qualquer outro lugar, nós podemos ajudar.</p>
 							<br>
 							<a href="">Entre em contato </a>
 						</div>
 					</div>
-				</div>
+				</div><!--end section interprise-->
 				<div class="row servicos secoes">
 					<h2>Serviços</h2>
 					<div>
@@ -98,9 +99,8 @@
 							<li><b>Escritório físico / virtual</b></li>
 						</ul>						
 						</div>						
-					</div>
-						
-				</div>
+					</div>						
+				</div><!--end section services-->
 				<div class="row gallery secoes">
 					<h2>Fotos</h2>
 					<div class="col-xs-6 col-md-3">
@@ -110,7 +110,7 @@
 				 	</div>
 				 	<div class="col-xs-6 col-md-3">
 					    <a href="img/cwemarea.jpg" class="thumbnail" data-lightbox="roadtrip" data-title="Cw - Em área">
-					      <img src="img/cwemarea.jpg" class="img-responsive"alt="...">
+					      <img src="img/cwemarea.jpg" class="img-responsive" alt="...">
 					    </a>
 				 	</div>
 				 	<div class="col-xs-6 col-md-3">
@@ -183,12 +183,79 @@
 					      <img src="img/cw.jpg" alt="...">
 					    </a>
 				 	</div>					
-				</div>
+				</div><!--end section images-->
+				<div class="row secoes empreinfo contato">
+					<form class="form-horizontal">
+						<h2>Entre em contato</h2>
+						<div class="form-group">
+						    <label for="nome1" class="col-sm-3 control-label">Nome</label>
+						    <div class="col-sm-7">
+						    	<input 
+							    	type="text" 
+							    	name="nome" 
+							    	class="form-control" 
+							    	id="nome1" 
+							    	placeholder="José Maria"
+						    	>
+						    </div>
+						</div>
+						<div class="form-group">
+						    <label for="tel1" class="col-sm-3 control-label">Telefone</label>
+						    <div class="col-sm-7">
+						    	<input 
+							    	type="text" 
+							    	name="telefone" 
+							    	class="form-control" 
+							    	id="tel1" 
+							    	placeholder="00 9999 8888"
+						    	>
+						    </div>
+						</div>
+						<div class="form-group">
+						    <label for="site1" class="col-sm-3 control-label">Site</label>
+						    <div class="col-sm-7">
+						    	<input 
+							    	type="text" 
+							    	name="site" 
+							    	class="form-control" 
+							    	id="site1" 
+							    	placeholder="www.seusite.com"
+						    	>
+						    </div>
+						</div>
+						<div class="form-group">
+						    <label for="email1" class="col-sm-3 control-label">Email</label>
+						    <div class="col-sm-7">
+						    	<input 
+							    	type="text" 
+							    	name="email" 
+							    	class="form-control" 
+							    	id="email1" 
+							    	placeholder="seuemail@seuemail.com"
+						    	>
+						    </div>
+						</div>
+						<div class="form-group">
+						    <label for="text1" class="col-sm-3 control-label">Mensagem</label>
+						    <div class="col-sm-7">
+						    	<textarea 
+							    	name="texto" 
+							    	class="form-control" 
+							    	rows="4" 
+							    	id="text1" 
+							    	placeholder="Deixe sua mensagem aqui... Entraremos em contato."
+						    	></textarea>
+						    </div>
+						</div>
+						    <button type="submit" class="btn btn-default">Enviar</button>					
+					</form>					
+				</div><!--end section contact-->
 			</section>	
 			<footer>
-				rodapé
-			</footer>
-			
+				<div class="rodape">
+					<p>Criação e Design: Equipe UP Designers/SP - 2014 - Contato: equipeupdesigners@hotmail.com</p>
+				</div><!---->
+			</footer>			
 		</div>
 
     <script type="text/javascript" src="js/lightbox.js"></script>		

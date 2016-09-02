@@ -91,6 +91,16 @@ body {
 	width: 200px;
 	height: 200px;
 }
+.contato {
+	margin-top: 30px;
+}
+.rodape{
+	margin-top: 15px;
+	background-color: #000;
+	color: #fff;
+	height: 60px;
+	width: 100%;
+}
 /* adaptações */
 @media screen and (max-width: 980px){
 	.conteudo {
