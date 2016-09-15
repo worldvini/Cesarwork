@@ -25,7 +25,7 @@ body {
 	background-color: #000;
 	background-size: 100%;
 	color: #fff;
-}/*dedede*/
+}
 .conteudo h1{
 	text-shadow: 0.2em 0.1em 0.1em #000;
 }
@@ -92,14 +92,86 @@ body {
 	height: 200px;
 }
 .contato {
+	padding: 10px;
 	margin-top: 30px;
 }
 .rodape{
 	margin-top: 15px;
 	background-color: #000;
 	color: #fff;
-	height: 60px;
-	width: 100%;
+}
+/*popup*/
+.popup {	
+	background: url("../img/poder.jpg") center center no-repeat fixed;
+	background-size: cover;
+	background-color: #000;
+}
+.positivo {
+	padding: 15px;
+	font-size: 1.2em;
+	text-align: center;
+	color: #fff;
+}
+.positivo img{
+	max-width: 300px;
+	margin-right: 200px;
+	margin: 0 auto;
+}
+.positivo figcaption {
+	color: #000;
+	background-color: #fff;
+}
+.positivo figcaption,
+.visivel {
+	opacity: 0.7;
+	padding: 5px;
+	border-radius: 15px;
+}
+.visivel{ 		
+	background-color: #000;
+}
+/*footer*/
+.col-md-6 p{
+	padding: 30px;
+}
+.col-md-6 ul {
+	display: inline;
+}
+.col-md-6 ul li{	
+	list-style: none;
+}
+.col-md-6 ul li div{	
+	border-radius: 70px;
+	width: 50px;
+	height: 50px;
+	float: right;
+	margin-right: 30px;
+}
+#fac{
+	background: url("../img/Facebook.png");
+}
+a:hover #fac{
+	background: url("../img/cFacebook.png");
+}
+#lin{
+	background: url("../img/Linkedin.png"); 
+}
+a:hover #lin{
+	background: url("../img/cLinkedin.png"); 
+}
+#twi{
+	background: url("../img/Twitter.png"); 
+}
+a:hover #twi{
+	background: url("../img/cTwitter.png"); 
+}
+#fac,
+#lin,
+#twi,
+a:hover #fac,
+a:hover #lin,
+a:hover #twi{
+	background-size: cover;
 }
 /* adaptações */
 @media screen and (max-width: 980px){
@@ -112,7 +184,11 @@ body {
 	}
 	.fotos {
 		display: none;
-	}	
+	}
+	.col-md-6 ul li div{
+	margin-right: 10em;
+	margin-bottom: 5px;
+}	
 }
 @media  screen and (max-width: 320px){
 	.empresa ul,
@@ -122,6 +198,9 @@ body {
 	.empresa ul li,
 	.servicos ul li{		
 		list-style: circle;
+	}
+	.col-md-6 ul li div{
+		margin-right: 2.5em;
 	}
 }
 /*

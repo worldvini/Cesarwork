@@ -29,30 +29,32 @@
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
 			      </button>
-			      <a class="navbar-brand" href="#">Cesar<span>Work</span></a>
+			      <a class="navbar-brand" href="#home">Cesar<span>Work</span></a>
 			    </div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">				     
-				     <ul class="nav navbar-nav navbar-right">
-				        <li><a href="#">Home</a></li>	
-				        <li><a href="#">Empresa</a></li>	
-				        <li><a href="#">Serviços</a></li>	
-				        <li><a href="#">Mente Positiva</a></li>	
-				        <li><a href="javascript:newPopup()">Contato</a></li>
+				     <ul class="nav navbar-nav navbar-right" id="control">
+				        <li><a href="#home">Home</a></li>	
+				        <li><a href="#empresa">Empresa</a></li>	
+				        <li><a href="#servico">Serviços</a></li>
+				        <li><a href="#fotos">Fotos</a></li>
+				        <li><a href="#contato">Contato</a></li>				        	
+				        <li><a href="javascript:newPopup()">Mente Positiva</a></li>	
 				     </ul>
 			     </div><!-- /.navbar-collapse -->
 			  </div><!-- /.container-fluid -->
 			</nav>
 		</header>
 		<div class="container all">	
-			<section>
-				<div class=" row conteudo">
+			<section><a name="home"></a>
+				<div class="row conteudo">
 					<h1>Cesar Work <br>Assessoria Empresarial que você procura.</h1>					
 					<img src="img/cwork2.png">
 					<p>Meu nome é Paulo César, fundador da CESAR WORK, uma empresa de assessoria empresarial, que oferece serviços dedicado a melhor resposta pelo método participativo em sua prestação confiável de resultados junto a clientes e empresas visando a condição custo/beneficio por estudos, pesquisas e estatísticas. Assim constituiu-se a CESAR WORK oferecendo por capacidade serviços e assessoria aos clientes e amigos satisfeitos em suas buscas.</p>
 					
 				</div>
-				<div class="row empresa"> 					
+				<a name="empresa"></a>
+				<div class="row empresa">				 					
 					<div class="col-md-12">
 						<div class="empreinfo secoes">
 							<h2>Empresa</h2>
@@ -71,6 +73,7 @@
 						</div>
 					</div>
 				</div><!--end section interprise-->
+				<a name="servico"></a>
 				<div class="row servicos secoes">
 					<h2>Serviços</h2>
 					<div>
@@ -101,8 +104,9 @@
 						</div>						
 					</div>						
 				</div><!--end section services-->
-				<div class="row gallery secoes">
-					<h2>Fotos</h2>
+				<a name="fotos"></a>
+				<h2>Fotos</h2>
+				<div class="row gallery secoes">					
 					<div class="col-xs-6 col-md-3">
 					    <a href="img/cwfront1.jpg" class="thumbnail" data-lightbox="roadtrip" data-title="Cesar Work">
 					      <img src="img/cwfront1.jpg" class="img-responsive" alt="...">
@@ -184,6 +188,7 @@
 					    </a>
 				 	</div>					
 				</div><!--end section images-->
+				<a name="contato"></a>
 				<div class="row secoes empreinfo contato">
 					<form class="form-horizontal">
 						<h2>Entre em contato</h2>
@@ -252,12 +257,20 @@
 				</div><!--end section contact-->
 			</section>	
 			<footer>
-				<div class="rodape">
-					<p>Criação e Design: Equipe UP Designers/SP - 2014 - Contato: equipeupdesigners@hotmail.com</p>
+				<div class="row rodape">
+					<div class="col-md-6">
+						<p>Criação e Design: Equipe UP Designers/SP - 2014<br>Contato: equipeupdesigners@hotmail.com</p>
+					</div>
+					<div class="col-md-6">
+						<ul>
+							<li><a href="https://www.facebook.com/people/Cesar-Work/100004307987701" target="_blank"><div id="fac"></div></a></li>
+							<li><a href="https://www.linkedin.com/in/cesar-work-b0528b98/pt" target="_black"><div id="lin"></div></a></li>	
+							<li><a href="https://twitter.com/cesarwork1" target="blank"><div id="twi"></div></a></li>
+						</ul>
+					</div>					
 				</div><!---->
 			</footer>			
 		</div>
-
-    <script type="text/javascript" src="js/lightbox.js"></script>		
+    <script type="text/javascript" src="js/lightbox.js"></script><!--Script ligthbox-->	
 </body>
 </html>
