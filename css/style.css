@@ -131,21 +131,24 @@ body {
 	background-color: #000;
 }
 /*footer*/
-.col-md-6 p{
-	padding: 30px;
+.col-md-4 p{
+	padding-top: 25px;
 }
-.col-md-6 ul {
+.col-md-4 p h3{
+	padding: 0px;
+}
+.col-md-4 ul {
 	display: inline;
 }
-.col-md-6 ul li{	
+.col-md-4 ul li{	
 	list-style: none;
 }
-.col-md-6 ul li div{	
+.col-md-4 ul li div{	
 	border-radius: 70px;
 	width: 50px;
 	height: 50px;
 	float: right;
-	margin-right: 30px;
+	margin-right: 2em;
 }
 #fac{
 	background: url("../img/Facebook.png");
@@ -185,7 +188,7 @@ a:hover #twi{
 	.fotos {
 		display: none;
 	}
-	.col-md-6 ul li div{
+	.col-md-4 ul li div{
 	margin-right: 10em;
 	margin-bottom: 5px;
 }	
@@ -199,7 +202,7 @@ a:hover #twi{
 	.servicos ul li{		
 		list-style: circle;
 	}
-	.col-md-6 ul li div{
+	.col-md-4 ul li div{
 		margin-right: 2.5em;
 	}
 }
